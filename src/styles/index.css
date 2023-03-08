@@ -10,3 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.hidden-icon > span {
+    visibility: hidden;
+}
+
+.hidden-icon: hover > span {
+visibility: visible;
+color: red;
+}
+
+body{
+    margin-top: 100px}
+ul {
+
+}
+ul li{
+    border: 1px solid grey;
+    list-style: none;
+padding: 5px;
+
+}
+ 
+h1{
+    text-align: center;
+}
+
+input {
+border: none; 
+width: 100px;
+}
+
+.task-left {
+    border: 1px solid grey;
+    list-style: none;
+padding: 5px;
+font-size:small;
+text-align: end;
+
+}
